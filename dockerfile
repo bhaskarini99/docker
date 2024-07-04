@@ -1,5 +1,5 @@
-FROM nginx
+FROM ubuntu
 
-COPY . usr/share/nginx/html
+COPY . var/www/html
 
 EXPOSE 80
